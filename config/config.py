@@ -14,4 +14,4 @@ MYSQL_DATABASE_NAME = 'medusa'
 MYSQL_SERVER_USERNAME = 'root'
 
 # MySQL 数据库连接用户密码
-MYSQL_SERVER_PASSWORD = 'langan123'
+MYSQL_SERVER_PASSWORD = 'password'

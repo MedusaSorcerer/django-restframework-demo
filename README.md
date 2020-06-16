@@ -35,7 +35,9 @@ cd applications
 python3 ../manage.py startapp User
 ```
 此时项目结构如下：
-![](https://user-gold-cdn.xitu.io/2020/6/13/172ab4e4e9765998)
+
+![](docs_static/medusa-01.png)
+
 
 ### 修改配置
 修改 `applications/User/apps.py`：
@@ -118,7 +120,9 @@ LANGUAGE_CODE = 'zh-hans'
 python3 manage.py runserver 0.0.0.0:8000
 ```
 你如果执行成功你可以访问 [http://127.0.0.1:8000/](http://127.0.0.1:8000/) 就看到以下界面：
-![](https://user-gold-cdn.xitu.io/2020/6/13/172ab4ead990289c)
+
+![](docs_static/medusa-02.png)
+
 
 ### 创建 User 模型
 在 `applications/User/models.py` 中自定义我们的用户模型类
@@ -206,9 +210,13 @@ This password is too common.
 
 不管他,
 上去就是一个 `y` 给他：
-![](https://user-gold-cdn.xitu.io/2020/6/13/172ab4f273d51945)
+
+![](docs_static/medusa-03.png)
+
 是时候启动服务测试下我们的代码成果了：
-![](https://user-gold-cdn.xitu.io/2020/6/13/172ab4f83b104a8e)
+
+![](docs_static/medusa-04.png)
+
 
 ### 登录注销
 对于已经登录的用户实现登出功能,
