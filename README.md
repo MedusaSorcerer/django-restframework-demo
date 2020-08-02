@@ -1,4 +1,10 @@
 # 实战讲解 Django-rest-framework JWT用户认证开发
+
+![](https://img.shields.io/badge/Python-3.8.1-red?logo=python&style=social)
+![](https://img.shields.io/badge/Django-3.0.2-red?logo=django&style=social)
+![](https://img.shields.io/badge/RestFramework-3.11.0-red?&style=social)
+
+
 我们用 `Django` 和 `rest-framework` 开发用户模块,
 并使用 `JWT(Json Web Token)` 进行用户认证<br>
 [前往我的掘金 juejin.im@MedusaSorcerer](https://juejin.im/post/5ee429826fb9a047af565027)

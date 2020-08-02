@@ -1,4 +1,5 @@
 *.pyc
-
-.git
-.idea
+.git/
+.idea/
+__pycache__/
+migrations/
